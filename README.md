@@ -13,4 +13,4 @@ When execution finishes, the netty all-in-one jar will be in the ./all/target fo
 
 ## Alternative
 
-You can download the jar file from release folder directly which is built by myself. (I will not build every release!)
+You can download the netty-all-4.1.86.Final.jar file from release folder directly which is built by myself. (I will not build every release!)
