@@ -8,9 +8,9 @@ The project uses pom file in all folder from version 4.1.68 and is modified to f
 
 ## How to Use
 
-Put the pom.xml files into the corresponding folder, and then execute ```mvn -PskipTests package``` in the root of project folder. 
+Put the pom.xml files into the corresponding folder, and then execute ```mvn -PskipTests -DskipTests=true -Dcheckstyle.skip=true -DskipNativeTestsuite=true package``` in the root of project folder. 
 When execution finishes, the netty all-in-one jar will be in the ./all/target folder.
 
 ## Alternative
 
-You can download the netty-all-4.1.86.Final.jar file from release folder directly which is built by myself. (I will not build every release!)
+You can download the netty-all-4.1.87.Final.jar file from release folder directly which is built by myself. (I will not build every release!)
