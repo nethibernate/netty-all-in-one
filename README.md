@@ -1,3 +1,7 @@
+# DEPRECATE
+
+No longer maintained. We suggest anyone who wants to use this repo to use maven or gradle instead.
+
 # netty-all-in-one
 
 This project is created for people who want to build the netty all-in-one jar. Since 4.1.69, netty has not provided all-in-one jar in its release anymore, but there are many legacy projects 
